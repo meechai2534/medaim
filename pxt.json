@@ -1,0 +1,31 @@
+{
+    "name": "medaim",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "BitBot": "github:4tronix/bitbot#1.5.2",
+        "iBIT": "github:emwta/pxt-ibit#v4.0.10",
+        "pxt-sonar": "github:microsoft/pxt-sonar#v0.0.5",
+        "ir": "github:tinkertanker/pxt-ir-receiver#v0.2.1",
+        "pxt-SGBotic-Ultimate-SR04-RGB": "github:sgbotic/pxt-sgbotic-ultimate-sr04-rgb#f7188bf33fcc24a7f78540e5ec7ebf7ab54f7134"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "5.0.12",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
